@@ -1,3 +1,4 @@
+/* Common Style start */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,13 @@
     max-width: 1200px;
     margin: auto;
 }
+.section-heading{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+/* Common Style end */
 /* Nav style start */
 .navigation{
     display: flex;
@@ -90,12 +98,6 @@ header{
 .meet-the-speakers{
     padding: 80px 0px;
 }
-.meet-the-speakers-heading{
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 40px;
-}
 /* Speakers card start */
 .speakers-all-card{
     display: grid;
@@ -128,9 +130,8 @@ header{
 }
 .speaker-image>img{
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
 }
-
-
 /* Speakers card end */
-
 /* Meet the Speakers style end */
