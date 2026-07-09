@@ -109,6 +109,12 @@ header {
     border: none;
     font-family: "Inter", sans-serif;
     font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.hero-btn>button:hover{
+    color:#2563EB;
+    background-color: #ffffff;
 }
 
 /* Header style end */
@@ -168,7 +174,7 @@ header {
 /* Secure your spot style start */
 
 .secure-your-spot {
-    padding: 80px;
+    padding: 40px;
 }
 
 .secure-your-spot-heading {
@@ -283,3 +289,38 @@ header {
 /* Price Cards style end */
 
 /* Secure your spot style end */
+/* footer style start */
+footer{
+    background-color:#1E293B;
+
+}
+.footer-top{
+    padding: 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons>i{
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons>i:hover{
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.copyright{
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    color: #ffffff96;
+    padding-bottom: 20px;
+}
+.footer-bottom{
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    color: #ffffff96;
+    display: flex;
+    justify-content: space-between;
+}
+/* footer style end */
