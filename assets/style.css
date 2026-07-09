@@ -1,22 +1,31 @@
 /* Common Style start */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.section-heading{
+
+.section-heading {
     font-family: "Inter", sans-serif;
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 40px;
 }
+
+.section-subheading {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
 /* Common Style end */
 /* Nav style start */
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,14 +33,15 @@
     padding: 15px 30px;
 }
 
-.menu{
+.menu {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 15px;
     font-family: "Arimo", sans-serif;
 }
-.reg-button>button{
+
+.reg-button>button {
     padding: 15px 30px;
     background-color: #1D4ED8;
     color: white;
@@ -40,10 +50,11 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
+
 /* Nav style end */
 /* Header style start */
-header{
-    
+header {
+
     background-image: url("./banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,6 +64,7 @@ header{
     align-items: center;
     position: relative;
 }
+
 .overlay {
     padding: 80px 80px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -63,7 +75,8 @@ header{
     position: relative;
     z-index: 1;
 }
-.hero-section{
+
+.hero-section {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -71,20 +84,24 @@ header{
     gap: 200px;
     font-family: "Inter", sans-serif;
 }
-.hero-main{
+
+.hero-main {
     color: white;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.hero-main>h1{
-    font-size:4rem;
+
+.hero-main>h1 {
+    font-size: 4rem;
 }
-.hero-main>p{
+
+.hero-main>p {
     font-size: 1rem;
     line-height: 1.4rem;
 }
-.hero-btn>button{
+
+.hero-btn>button {
     padding: 15px 30px;
     background-color: #1D4ED8;
     color: white;
@@ -93,45 +110,135 @@ header{
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
+
 /* Header style end */
 /* Meet the Speakers style start */
-.meet-the-speakers{
+.meet-the-speakers {
     padding: 80px 0px;
 }
+
+.meet-the-speakers-heading {
+    margin-bottom: 40px;
+}
+
 /* Speakers card start */
-.speakers-all-card{
+.speakers-all-card {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.speaker-card{
+
+.speaker-card {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.094);
     border-radius: 10px;
     font-family: "Inter", sans-serif;
 }
-.speaker-description{
+
+.speaker-description {
     padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.track-label{
+
+.track-label {
     font-size: 0.7rem;
     font-weight: 700;
     color: #2563EB;
 }
-.speaker-name{
+
+.speaker-name {
     font-size: 1.2rem;
     font-weight: 800;
 }
-.speaker-title{
+
+.speaker-title {
     font-size: 0.8rem;
     font-weight: 200;
 }
-.speaker-image>img{
+
+.speaker-image>img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 
 }
+
 /* Speakers card end */
 /* Meet the Speakers style end */
+/* Secure your spot style start */
+
+.secure-your-spot {
+    padding: 80px;
+}
+
+.secure-your-spot-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+/* Price Cards style start */
+.price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+.price-card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.059);
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.label {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    color: #888888;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.person {
+    font-size: 0.7rem;
+    font-weight: 200;
+    color: #888888;
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0px;
+}
+.features{
+    padding: 0px 12px 10px;
+}
+.features>li{
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    color: #333333;
+}
+.features li::marker{
+    color: #1D4ED8;
+}
+.standard-card-btn{
+    padding: 10px;
+    width: 100%;
+    color:#2563EB;
+    font-weight: 600;
+    font-size: 0.7rem;
+    border: 2px solid #2563EB;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Price Cards style end */
+
+/* Secure your spot style end */
