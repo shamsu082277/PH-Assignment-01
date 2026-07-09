@@ -86,3 +86,51 @@ header{
     font-weight: bold;
 }
 /* Header style end */
+/* Meet the Speakers style start */
+.meet-the-speakers{
+    padding: 80px 0px;
+}
+.meet-the-speakers-heading{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+/* Speakers card start */
+.speakers-all-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.speaker-card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.094);
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+}
+.speaker-description{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.track-label{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #2563EB;
+}
+.speaker-name{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.speaker-title{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+.speaker-image>img{
+    width: 100%;
+}
+
+
+/* Speakers card end */
+
+/* Meet the Speakers style end */
