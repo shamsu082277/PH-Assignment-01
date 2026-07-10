@@ -286,6 +286,22 @@ header {
     background-color: #000000;
 }
 
+.pro-price-card{
+    background-color: #0D1B2A;
+}
+.pro-card-details>.label{
+    color: #93C5FD;
+}
+.pro-card-details>.price{
+    color: #ffffff;
+}
+.pro-card-details>.person{
+    color: #ffffffae;
+}
+.pro-card-details>.features>li{
+    color: #ffffff;
+}
+
 /* Price Cards style end */
 /* Secure your spot style end */
 
